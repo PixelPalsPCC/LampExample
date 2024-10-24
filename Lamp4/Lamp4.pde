@@ -1,6 +1,7 @@
 //turn on the lamp by drawing a yellow circle in it
 //button code from https://processing.org/examples/button.html
 //arduino code from https://sdevelectronics.blogspot.com/2020/01/control-led-using-processing-gui.html
+//https://www.youtube.com/watch?v=t9Rzz73aFnI
 
 Lamp l;
 PImage lampImage;
@@ -18,10 +19,6 @@ void setup() {
   
   //make a new lamp
   l = new Lamp();
-
-
-  //set text size
-  textSize(30);
 
   String portName = "COM7";// Change the number (in this case ) to match the corresponding port number connected to your Arduino. 
   port = new Serial(this, portName, 9600);
