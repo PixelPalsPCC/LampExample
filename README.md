@@ -1,1 +1,3 @@
 # LampExample
+
+export PATH=".:$PATH:~"
