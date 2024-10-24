@@ -1,5 +1,7 @@
 //This Code is Developed by Sdev
 //Follow Us Here : https://youtube.com/sdevelectronics
+//georgemck added digitalWrite(LED_BUILTIN, HIGH); 
+//georgemck added  digitalWrite(LED_BUILTIN, LOW);
 
 #define led1 4    //red
 #define led2 3    //green
